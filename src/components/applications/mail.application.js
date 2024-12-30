@@ -123,7 +123,7 @@ function Mail() {
 						label="To :"
 						underlined
 						disabled
-						placeholder="Srinibas Biswal (srinibasbiswal02@gmail.com)"
+						placeholder="Samridhi Raj Sinha (samridhiraj04@gmail.com)"
 					/>
 				</div>
 				<div className="uk-margin form-input">

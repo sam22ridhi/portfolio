@@ -27,7 +27,7 @@ function SignInScreen() {
 				</div>
 				<div>
 					<h1 className="uk-heading-small  font-color-white">
-						Srinibas Biswal
+						Samridhi Raj Sinha
 					</h1>
 				</div>
 				<div>

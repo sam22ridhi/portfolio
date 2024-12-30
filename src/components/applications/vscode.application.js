@@ -4,7 +4,7 @@ function VSCode() {
 	return (
 		<div className="height-100">
 			<iframe
-				src="https://github1s.com/srinibasbiswal/Portfolio_OS_Theme/blob/master/src/App.js"
+				src="https://github1s.com/sam22ridhi/DataScribe/blob/app.py/"
 				frameBorder="0"
 				height="100%"
 				width="100%"
