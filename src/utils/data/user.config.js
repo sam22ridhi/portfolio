@@ -18,58 +18,78 @@ const user = {
             "I have a passion for leveraging AI and software development to solve complex problems. My expertise spans Machine Learning, Artificial Intelligence, Web Development, and Software Engineering.",
         outro: "Outside of work, I enjoy creating impactful projects and contributing to meaningful initiatives.",
     },
-    experiences: [
+	experiences: [
+		    {
+        organization: "Indian Institute of Technology Gandhinagar",
+        organizationPicture: iit, // Add logo if available
+        isCurrent: false,
+        startDate: "May 2025",
+        endDate: "July 2025",
+        positions: [
+            {
+                positionName: "Research Intern",
+                startDate: "May 2025",
+                endDate: "July 2025",
+                isPresent: false,
+                description:
+                    "Developed an evaluation framework for Project EKΛ, India's 120B-parameter multilingual foundation model. Automated benchmarking pipelines for Indic tasks including code, reasoning, and world knowledge.",
+            },
+        ],
+    },
 		
+    {
+        organization: "Nanavati Max Institute of Cancer Care",
+        organizationPicture: nanavati,
+        isCurrent: true,
+        startDate: "September 2024",
+        endDate: null,
+        positions: [
+            {
+                positionName: "AI & ML Research Intern",
+                startDate: "September 2024",
+                endDate: "Present",
+                isPresent: true,
+                description:
+                    "Contoured tumor bed volumes on pre- and post-operative CT scans under radiation oncologist guidance with <1mm variance. Built a 3D U-Net with hybrid loss (BCE+Dice+Focal), achieving 0.908 DSC and 1.19mm HD95. Co-authoring research paper on AI-driven breast tumor bed estimation for radiotherapy planning.",
+            },
+        ],
+    },
+    {
+        organization: "ResoluteAI Software",
+        organizationPicture: resolute, // Add logo if available
+        isCurrent: false,
+        startDate: "November 2024",
+        endDate: "February 2025",
+        positions: [
+            {
+                positionName: "AI Engineer Intern",
+                startDate: "November 2024",
+                endDate: "February 2025",
+                isPresent: false,
+                description:
+                    "Automated GitHub codebase documentation using CrewAI/LangChain agents, reducing manual effort by 50% with RAG-enhanced context. Developed a LinkedIn analytics platform with a FastAPI backend and a React & TypeScript dashboard for real-time social media insights.",
+            },
+        ],
+    },
 
-        {
-            organization: "Nanavati Max Institute of Cancer Care",
-			organizationPicture: nanavati,
-            isCurrent: true,
-            startDate: "September 2024",
-            endDate: null,
-            positions: [
-                {
-                    positionName: "AI & ML Research Intern",
-                    startDate: "September 2024",
-                    endDate: "Present",
-                    isPresent: true,
-                    description:
-                        "Conducting research on AI techniques for breast tumor bed volume estimation, collaborating with oncologists to improve radiotherapy planning.",
-                },
-            ],
-        },
-        {
-            organization: "Jio Platforms Limited (JPL)",
-			organizationPicture: jio,
-            isCurrent: false,
-            startDate: "May 2024",
-            endDate: "July 2024",
-            positions: [
-                {
-                    positionName: "AI & ML Engineer Intern",
-                    startDate: "May 2024",
-                    endDate: "July 2024",
-                    isPresent: false,
-                    description:
-                        "Developed an automatic annotator tool using Python and NLP techniques, improving data processing efficiency by 30%. Implemented a low-code multi-agent system, enhancing development timelines by 40%.",
-                },
-            ],
-        },
-    ],
-    education: [
-        {
-            instituteName: "Mukesh Patel School of Technology Management & Engineering, NMIMS, Mumbai",
-            degree: "Bachelor of Technology in Computer Engineering",
-            year: "Expected Aug 2026",
-            CGPA: "3.79 / 4.00",
-        },
-        {
-            instituteName: "Indian Institute of Technology, Madras, India",
-            degree: "Bachelor of Science in Data Science and Programming (online)",
-            year: "Expected Sept 2026",
-            CGPA: "8.5 / 10.00",
-        },
-    ],
+    {
+        organization: "Jio Platforms Limited (JPL)",
+        organizationPicture: jio,
+        isCurrent: false,
+        startDate: "May 2024",
+        endDate: "July 2024",
+        positions: [
+            {
+                positionName: "AI & ML Engineer Intern",
+                startDate: "May 2024",
+                endDate: "July 2024",
+                isPresent: false,
+                description:
+                    "Built an automatic annotator tool using Python, FastAPI, and spaCy, improving data processing by 30%. Designed a low-code, multi-agent system with CrewAI, reducing development time by 40%.",
+            },
+        ],
+    },
+],
     projects: [
         {
             projectName: "MindMate: AI Powered Mental Health Assistant",
